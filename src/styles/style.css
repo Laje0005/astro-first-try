@@ -1,0 +1,19 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+
+    background: hotpink;
+}
+
+p {
+
+    color: white;
+}
+
+img {
+
+    max-width: 100%;
+}

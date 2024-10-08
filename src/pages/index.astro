@@ -1,11 +1,46 @@
 ---
+import "../styles/style.css";
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Card2 from '../components/Card2.astro';
+import Card3 from '../components/Card3.astro';
+import Nav from '../components/Nav.astro'
+import Button from '../components/Button.astro'
+
 ---
 
-<Layout title="Welcome to Astro.">
+<!-- <Layout title="Welcome to Astro."> -->
 	<main>
-		<svg
+<Nav/>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit impedit ipsum, sed nemo sit sapiente facere nisi voluptate maxime est et praesentium recusandae facilis commodi molestiae tenetur hic! Debitis, eaque?</p>
+
+<Button variant="primary" size="small">TEXT</Button>
+<Button variant="secondary" size="medium">TEXT</Button>
+<Button variant="secondary" size="large">TEXT</Button>
+
+  
+
+ <!--
+<Card2 header="Hej Verden" text="lorem"/>
+<Card2 header="Hej 1" text="lorem"/>
+<Card2 header="Hej 2" text="lorem"/>
+
+<Card3 header="Hej søde">
+
+	<img src="/meme1.png" alt="Meme 1">
+	<button>Klik her</button>
+</Card3>
+
+<Card3 header="Hej søde">
+
+<button>Klik her</button>
+	<img src="/meme1.png" alt="Meme 1">
+	
+</Card3> --> 
+
+
+
+		<!-- <svg
 			class="astro-a"
 			width="495"
 			height="623"
@@ -59,8 +94,10 @@ import Card from '../components/Card.astro';
 				title="Community"
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
-		</ul>
-	</main>
+		</ul> -->
+	 </main>
+	
+<!-- 	
 </Layout>
 
 <style>
@@ -120,4 +157,4 @@ import Card from '../components/Card.astro';
 		gap: 2rem;
 		padding: 0;
 	}
-</style>
+</style> -->
